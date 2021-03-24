@@ -19,13 +19,17 @@ class Hypercycle:
 		self.__colours_number = p_colours
 		self.__colours_list = list(range(1, self.__colours_number + 1))
 		self.__colours_count = np.zeros(self.__colours_number)
-		self.__colours_count_df = pd.DataFrame(self.__colours_count).transpose()
+		self.__colours_count_df = pd.DataFrame(self.__colours_count)
+		self.__colours_count_df.index = np.arange(1,  len(self.__colours_count_df)+1)
+		self.__colours_count_df = self.__colours_count_df.transpose()
 		self.__dim1 = p_dim1
 		self.__dim2 = p_dim2
 		self.__size = self.__dim1 * self.__dim2
 		self.__colour_ratio = self.__size / self.__colours_number
 		self.__colours_equal_distributed  = bool(np.where(self.__colour_ratio % int(self.__colour_ratio) == 0, 1, 0))
 		self.__playing_ground = np.zeros((self.__dim1, self.__dim2))
+		self.__playing_ground_list = None
+		self.__plotting_sequence = None
 
 	def __del__(self): 
 		print("Destructor called.")
@@ -48,12 +52,38 @@ class Hypercycle:
 		fig = plt.figure(figsize=(8,6))
 		plt.imshow(X)
 
+	def plot_playing_ground_sequence(self):
+		numbers = range(1,  len(self.__playing_ground_list))
+		self.__plotting_sequence = []
+
+		for number in numbers:
+			if number % (int(len(self.__playing_ground_list)/8)) == 0:
+				self.__plotting_sequence.append(number)
+			elif number <= 4:
+				self.__plotting_sequence.append(number)
+			elif number >= (len(self.__playing_ground_list) - 4):
+				self.__plotting_sequence.append(number)
+				
+		self.__plotting_sequence += [len(self.__playing_ground_list) - 2] * (16 - len(self.__plotting_sequence))
+		
+		fig, ax = plt.subplots(4, 4, figsize = (8, 10))
+		for i in range(1, 16+1):
+			plt.subplot(4, 4, i)
+			plt.title("Step:" + str(self.__plotting_sequence[i-1]))
+			plt.imshow(self.__playing_ground_list[self.__plotting_sequence[i-1]], cmap='plasma')	
+    		
 	def plot_colours_count_path(self):
 		myTitle = "Play with " + str(self.__colours_number) + " colours by " + str(self.__dim1) + " x " + str(self.__dim2) + " field"
-		self.get_colours_count_df().plot(figsize=(14,6), title = myTitle)
+		self.get_colours_count_df().plot(figsize=(14,6), title = myTitle, cmap='plasma')
 
 	def get_playing_ground(self): 
 		return self.__playing_ground 
+
+	def get_playing_ground_list(self): 
+		return self.__playing_ground_list
+		
+	def get_plotting_sequence(self):
+		return self.__plotting_sequence
 
 	def set_playing_ground(self, p_playing_ground): 
 		self.__playing_ground = p_playing_ground 
@@ -64,7 +94,9 @@ class Hypercycle:
 			for j in range(self.__dim2):
 				index = self.__playing_ground[i-1][j-1] - 1
 				self.__colours_count[index] += 1
-		temp = pd.DataFrame(self.__colours_count).transpose()     
+		temp = pd.DataFrame(self.__colours_count)
+		temp.index = np.arange(1,  len(temp)+1)
+		temp = temp.transpose()
 		self.__colours_count_df = pd.concat([self.__colours_count_df, temp]).reset_index(drop=True)
 
 	def get_colours_count(self): 
@@ -109,19 +141,23 @@ class Hypercycle:
 		for i in range(self.__colours_number):
 			if self.__colours_count[i] == self.__size:
 				return True
-			return False
+		return False
 
 	def play(self, p_rounds = None): 
 		self.initialize_playing_ground()
 
 		if p_rounds is None:
 			p_rounds = 10000
+		
+		self.__playing_ground_list = []
+		self.__playing_ground_list.append(np.array(self.get_playing_ground()))
 
 		run = 1
 		while run < p_rounds:
-			if run % 2500 == 0:
+			if run % 2000 == 0:
 				print(run, "number of rounds completed (max default is", p_rounds, ")")
 			self.playing_move()
+			self.__playing_ground_list.append(np.array(self.get_playing_ground()))
 			run += 1
 			if self.game_has_finished():
 				break
