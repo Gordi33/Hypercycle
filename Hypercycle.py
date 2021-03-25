@@ -50,7 +50,7 @@ class Hypercycle:
 	def plot_playing_ground(self): 
 		X = self.get_playing_ground()
 		fig = plt.figure(figsize=(8,6))
-		plt.imshow(X)
+		plt.imshow(X, cmap='plasma')
 
 	def plot_playing_ground_sequence(self):
 		numbers = range(1,  len(self.__playing_ground_list))
@@ -65,6 +65,7 @@ class Hypercycle:
 				self.__plotting_sequence.append(number)
 				
 		self.__plotting_sequence += [len(self.__playing_ground_list) - 2] * (16 - len(self.__plotting_sequence))
+		self.__plotting_sequence.sort()
 		
 		fig, ax = plt.subplots(4, 4, figsize = (8, 10))
 		for i in range(1, 16+1):
