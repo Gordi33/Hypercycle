@@ -1,4 +1,5 @@
-# The-Laws-of-the-Game---How-The-Principles-of-Nature-Govern-Chance
+## The-Laws-of-the-Game
+# How-The-Principles-of-Nature-Govern-Chance
 
 Implemented and visualized a few chosen games from Nobel laureate Manfred Eigen and Ruthild Winkler, who show how the elements of chance and rules underlie all that happens in the universe, from genetic behavior through economic growth to the composition of music. The games represent a simplification.
 
