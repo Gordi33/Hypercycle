@@ -7,7 +7,7 @@ https://en.wikipedia.org/wiki/Manfred_Eigen
 ------------------------------------------------------------------------------------------------------------------------------
 # Hypercycle from Manfred Eigen (chemist). 
 
-Cycle breaks sooner or later with only having one survivor colour.
+Manfred Eigen's Hypercycle modelled in a ball-game. The winner-colour takes it all and is the only survivor. Cycle breaks sooner or later with only having one survivor colour.
 
 Game starts with a fix number of colours which are randomly equally-distributed on a two-dimensional grid.
 A playing_move implies subsituting a colour with another colour according the set-up-rule. 
