@@ -5,7 +5,7 @@ Implemented and visualized a few chosen games from Nobel laureate Manfred Eigen 
 https://en.wikipedia.org/wiki/Manfred_Eigen
 
 ------------------------------------------------------------------------------------------------------------------------------
-# Hypercycle from Manfred Eigen (chemist). 
+# Hypercycle
 
 Manfred Eigen's Hypercycle modelled in a ball-game. The winner-colour takes it all and is the only survivor. Cycle breaks sooner or later with only having one survivor colour.
 
