@@ -17,8 +17,14 @@ How many games resp. playing_moves need to be played until one colour reaches 10
 
 See: 
 
-https://www.genesisnet.info/schoepfung_evolution/f85_was_versteht_man_unter_einem_hyperzyklus__welche_bedeutung_hat_er_im_zusammenhang_mit_der_entste.php
+https://unterlagen.site/document/eigen1977naturwissenschaften64.html
+
+https://web.archive.org/web/20160303203325/http://jaguar.biologie.hu-berlin.de/~wolfram/pages/seminar_theoretische_biologie_2007/literatur/schaber/Eigen1978Naturwissenschaften65a.pdf
 
 https://web.archive.org/web/20160616180402/http://jaguar.biologie.hu-berlin.de/~wolfram/pages/seminar_theoretische_biologie_2007/literatur/schaber/Eigen1978Naturwissenschaften65b.pdf
 
 ------------------------------------------------------------------------------------------------------------------------------
+
+## Struggle
+
+... 
