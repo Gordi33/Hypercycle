@@ -4,8 +4,7 @@
 Implemented and visualized a few chosen games from Nobel laureate Manfred Eigen and Ruthild Winkler, who show how the elements of chance and rules underlie all that happens in the universe, from genetic behavior through economic growth to the composition of music. The games represent a simplification.
 
 ------------------------------------------------------------------------------------------------------------------------------
-## Hypercycle
-* [**Notebook here**](https://nbviewer.jupyter.org/github/Gordi33/The-Laws-of-the-Game/blob/master/Hypercycle.ipynb) 
+## [**Hypercycle**](https://nbviewer.jupyter.org/github/Gordi33/The-Laws-of-the-Game/blob/master/Hypercycle.ipynb) 
 
 Manfred Eigen's Hypercycle modelled in a ball-game. The winner-colour takes it all and is the only survivor. Cycle breaks sooner or later with only having one survivor colour.
 
