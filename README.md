@@ -3,10 +3,9 @@
 
 Implemented and visualized a few chosen games from Nobel laureate Manfred Eigen and Ruthild Winkler, who show how the elements of chance and rules underlie all that happens in the universe, from genetic behavior through economic growth to the composition of music. The games represent a simplification.
 
-https://en.wikipedia.org/wiki/Manfred_Eigen
-
 ------------------------------------------------------------------------------------------------------------------------------
 ## Hypercycle
+* [**Notebook here**](https://nbviewer.jupyter.org/github/Gordi33/The-Laws-of-the-Game/blob/master/Hypercycle.ipynb) 
 
 Manfred Eigen's Hypercycle modelled in a ball-game. The winner-colour takes it all and is the only survivor. Cycle breaks sooner or later with only having one survivor colour.
 
@@ -15,16 +14,8 @@ A playing_move implies subsituting a colour with another colour according the se
 According to that rule only one colour survives.
 How many games resp. playing_moves need to be played until one colour reaches 100% depends on the grid dimensions and on the number of colours (and on the set-up-rule).
 
-See: 
-
-https://unterlagen.site/document/eigen1977naturwissenschaften64.html
-
-https://web.archive.org/web/20160303203325/http://jaguar.biologie.hu-berlin.de/~wolfram/pages/seminar_theoretische_biologie_2007/literatur/schaber/Eigen1978Naturwissenschaften65a.pdf
-
-https://web.archive.org/web/20160616180402/http://jaguar.biologie.hu-berlin.de/~wolfram/pages/seminar_theoretische_biologie_2007/literatur/schaber/Eigen1978Naturwissenschaften65b.pdf
-
 ------------------------------------------------------------------------------------------------------------------------------
 
-## Struggle
+## ...
 
 ... 

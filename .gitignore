@@ -2,3 +2,5 @@
 *.ipynb_checkpoints
 __pycache__
 obsolete
+Struggle.ipynb
+lib/Struggle.py
