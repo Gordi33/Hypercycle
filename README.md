@@ -12,9 +12,9 @@ Manfred Eigen's Hypercycle modelled in a ball-game. The winner-colour takes it a
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-## Player's survival when throwing dices
+## [**Player's survival when throwing dices**](https://nbviewer.jupyter.org/github/Gordi33/The-Laws-of-the-Game/blob/master/Dices_Game.ipynb)
 
-Player's survival <<< **staying in the game** >>> represents an introduction the the principle of Time-on-device-Players vs. Gamblers.
+Player's survival **staying in the game** represents an introduction the the principle of Time-on-device-Players vs. Gamblers.
 
  - Part 3: Compute for one to eight dices the survival distributions and KPIs
  - Part 4: Visualise and plot the results
