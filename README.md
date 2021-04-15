@@ -6,7 +6,7 @@
 
 Manfred Eigen's Hypercycle modelled in a ball-game. The winner-colour takes it all and is the only survivor. 
 
- - Part 3: Play the game until one colour "takes it all" on a 10x10 grid having six colours initially. and plot colour-path in a line plot and the playground evolution in 16-steps.
+ - Part 3: Play the game until one colour "takes it all" on a 10x10 grid having six colours initially. Plot colour-path in a line plot and the playground evolution in 16-steps.
  - Part 4: Simulate "One-Colour-takes-it-all distribution"
  - Part 5: Line-plot and Playing-ground animation
 
