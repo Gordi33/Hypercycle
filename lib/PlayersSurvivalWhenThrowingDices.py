@@ -41,7 +41,7 @@ class Dices_Game:
         self.__dices_prizes = dices_prizes
 
     def throw_dices(self):
-        self.__throwing_result = [randint(1, 6) for i in range(self.__number_of_dices)]
+        self.__throwing_result = [random.randint(1, 6) for i in range(self.__number_of_dices)]
 
     def set_starting_balance(self, starting_balance):
         self.__starting_balance = starting_balance
