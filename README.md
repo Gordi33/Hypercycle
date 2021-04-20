@@ -12,20 +12,20 @@ Manfred Eigen's Hypercycle modelled in a ball-game. The **winner-colour takes it
 
 ---
 
-### [**Player's survival when throwing dices**](https://nbviewer.jupyter.org/github/Gordi33/The-Laws-of-the-Game/blob/master/Dices_Game.ipynb)
+### [**Player's survival when throwing dices**](https://nbviewer.jupyter.org/github/Gordi33/The-Laws-of-the-Game/blob/master/PlayersSurvivalWhenThrowingDices.ipynb)
 
-Player's survival' **staying in the game** represents an introduction to the principle of **Time-on-device-Players vs. Gamblers**.
+Player's survival' i.e., **staying in the game** represents an introduction to the principle of **Time-on-device-Players vs. Gamblers**, one important indicator of describing players, their preferences and their behaviour.
 
- - Part 3: Compute for one to eight dices the survival distributions' **player's death occurance** and their KPIs.
+ - Part 3: Compute for one to eight dices the survival distributions i.e., **player's death occurance** and their KPIs.
  - Part 4: Visualise and plot the results.
 
 ---
 
-### **Distribution computation in C# for multiple manipluated dices via REST-API**
+### [**Distribution computation in C# accessed via REST-API for multiple events having multiple weighted outcomes**](https://nbviewer.jupyter.org/github/Gordi33/The-Laws-of-the-Game/blob/master/DistributionComputation.ipynb)
 
-Computing the distribution allows to modell **game design' specific payouts**.
-The general formula allows to determine the exact distribution on equally-distributed outcomes. A cylce-evaluation further allows to consider weighted-outcomes. 
+Computing the distribution allows to modell **game design' specific payout-profiles**.
+Deriving a general formula allows to determine the exact distribution on equally-distributed outcomes. A cylce-evaluation further allows to consider weighted-outcomes. 
  
- - Part 3: A general formula for a fixed number of equally-distributed outcomes for each dice. Creating a game' payout based on the distribution.
+ - Part 3: A general formula for a fixed number of equally-distributed outcomes for each event. Creating a game' payout based on the distribution.
  - Part 4: Cycle evaluation for a fixed number of events with weighted-outcomes in **C# accessed via REST-API**.
 
