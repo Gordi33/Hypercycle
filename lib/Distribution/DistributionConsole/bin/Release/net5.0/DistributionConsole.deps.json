@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DistributionConsole/1.0.0": {
+        "dependencies": {
+          "DistributionCycleRunner": "1.0.0"
+        },
+        "runtime": {
+          "DistributionConsole.dll": {}
+        }
+      },
+      "DistributionCycleRunner/1.0.0": {
+        "runtime": {
+          "DistributionCycleRunner.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DistributionConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DistributionCycleRunner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

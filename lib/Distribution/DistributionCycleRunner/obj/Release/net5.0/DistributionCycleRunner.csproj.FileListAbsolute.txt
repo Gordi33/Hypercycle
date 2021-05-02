@@ -1,0 +1,11 @@
+C:\Users\gorde\source\repos\.NET\Distribution\DistributionCycleRunner\bin\Release\net5.0\DistributionCycleRunner.deps.json
+C:\Users\gorde\source\repos\.NET\Distribution\DistributionCycleRunner\bin\Release\net5.0\DistributionCycleRunner.dll
+C:\Users\gorde\source\repos\.NET\Distribution\DistributionCycleRunner\bin\Release\net5.0\ref\DistributionCycleRunner.dll
+C:\Users\gorde\source\repos\.NET\Distribution\DistributionCycleRunner\bin\Release\net5.0\DistributionCycleRunner.pdb
+C:\Users\gorde\source\repos\.NET\Distribution\DistributionCycleRunner\obj\Release\net5.0\DistributionCycleRunner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gorde\source\repos\.NET\Distribution\DistributionCycleRunner\obj\Release\net5.0\DistributionCycleRunner.AssemblyInfoInputs.cache
+C:\Users\gorde\source\repos\.NET\Distribution\DistributionCycleRunner\obj\Release\net5.0\DistributionCycleRunner.AssemblyInfo.cs
+C:\Users\gorde\source\repos\.NET\Distribution\DistributionCycleRunner\obj\Release\net5.0\DistributionCycleRunner.csproj.CoreCompileInputs.cache
+C:\Users\gorde\source\repos\.NET\Distribution\DistributionCycleRunner\obj\Release\net5.0\DistributionCycleRunner.dll
+C:\Users\gorde\source\repos\.NET\Distribution\DistributionCycleRunner\obj\Release\net5.0\ref\DistributionCycleRunner.dll
+C:\Users\gorde\source\repos\.NET\Distribution\DistributionCycleRunner\obj\Release\net5.0\DistributionCycleRunner.pdb
